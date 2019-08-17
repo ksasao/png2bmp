@@ -39,5 +39,4 @@ try:
         img.draw_image(img_overlay,80,80,mask=img_mask)
         lcd.display(img)
 except KeyboardInterrupt:
-    kpu.deinit(task)
     sys.exit()
